@@ -13,5 +13,3 @@ age = 26
 
 print(greeting + " " + age)
 # prints the error TypeError: Can't convert 'int' object to str implicitly
-
- 
