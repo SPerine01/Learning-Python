@@ -28,3 +28,15 @@ print(numbers[0::3])
 print("Hello " * 5)
 #prints Hello Hello Hello Hello Hello 
 
+today = "sunday"
+print("day" in today)
+# prints True
+
+print("fri" in today)
+#prints False
+
+print("sun" in today)
+#prints True
+
+print("thurs" in today)
+#prints False
