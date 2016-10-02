@@ -13,3 +13,11 @@ print(a % b)
 for i in range(1, a/b):
 	print(i)
 #produces an error, the range needs a whole number, not a float
+
+#in place operators
+x = 2
+print(x)
+2
+x += 3
+print(x)
+5
