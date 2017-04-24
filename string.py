@@ -48,3 +48,8 @@ year = "1901"
 realyear = 2017
 print(type(realyear))
 # prints out the type of object it is, in this case, an integer
+
+price = 109.5
+amount = 3
+print(type(amount), type(price))
+# prints out the object types for each, amount is an integer, while price is a float
