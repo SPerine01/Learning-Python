@@ -40,3 +40,11 @@ print("sun" in today)
 
 print("thurs" in today)
 #prints False
+
+filename = "weather_1901"
+table = "temperature"
+year = "1901"
+
+realyear = 2017
+print(type(realyear))
+# prints out the type of object it is, in this case, an integer

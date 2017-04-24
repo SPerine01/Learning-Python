@@ -25,4 +25,4 @@ tabbedString = "We're just \t tabbing \t on em!"
 print(tabbedString)
 
 print("""She said "He loves me, he loves me not" """)
-#idle3 prints She said "He loves me, he loves me not" 
+#idle3 prints She said "He loves me, he loves me not"
