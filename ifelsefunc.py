@@ -33,17 +33,5 @@ else:
 	print("They're not the same fruit at all")
 	print("But they taste really good together")
 print("I don't like fruit")
-# the last print statement isn't apart of the if or else block. so, it will
-# always execute when the code block is run
+# the last print statement isn't dependent of the if or else block. so, it will always execute when the code block is run
 
-
-
-
-# custom functions are functions you create using the def method, they're reusable code
-
-def potatoCost(potatoPrice, amount, potatoType):
-	cost = potatoPrice * amount
-	print(potatoType)
-	return(cost)
-
-potatoCost(10, 10, 3.5)
