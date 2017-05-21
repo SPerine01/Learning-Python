@@ -64,6 +64,10 @@ print("Hello " * 5)
 # the in operator checks if there is a substring in a string
 today = "Sunday"
 print("day" in today)
+# prints True
 print("Sun" in today)
+# prints True
 print("Thur" in today)
-print("Hello" in numbers) 
+# prints False
+print("Hello" in numbers)
+# prints False
