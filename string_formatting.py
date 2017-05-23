@@ -30,3 +30,13 @@ September: {1}
 October: {2}
 November: {1}
 December: {2}""".format(28, 30, 31))
+
+for i in range(1, 12):
+	print("No. {0:2} squared is {1:4} and cubed is {2:4} ".format(i, i**2, i**3))
+# the first number is the replacement field number, while the :2 adds 2 spaces in the line and the :4 adds 4 spaces in the line, for neatness
+
+
+for i in range(1, 12):
+	print("No. {} squared is {} and cubed is {:4} ".format(i, i**2, i**3))
+# you don't have to place anything in the {}, but the values will take the place of the field that is to be replaced, in the order starting from 0)
+# this method of using replacement fields cannot be used more than once, because it has no initial value
