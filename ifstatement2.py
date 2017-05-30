@@ -1,6 +1,12 @@
 age = int(input("How old are you? "))
 
-# using and/or
+# using and operator
+if (age >= 16) and (age <= 65):
+	print("Have a good day at work")
+else:
+	print("Enjoy this free time")
+
+# using or
 if (age < 16) or (age > 65):
 	print("Enjoy your free time")
 else:
